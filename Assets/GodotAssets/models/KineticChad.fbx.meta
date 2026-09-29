@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: 7b8ca211eabd2bb429348ec24a4a8455
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature.001
+    100004: Armature.002
+    100006: Armature.003
+    100008: Armature.004
+    100010: Armature.005
+    100012: Armature.006
+    100014: Armature.007
+    100016: Armature.008
+    100018: Armature.009
+    100020: chest
+    100022: chest 1
+    100024: chest 2
+    100026: chest 3
+    100028: chest 4
+    100030: chest 5
+    100032: chest 6
+    100034: chest 7
+    100036: chest 8
+    100038: chest 9
+    100040: foot.l
+    100042: foot.l 1
+    100044: foot.l 2
+    100046: foot.l 3
+    100048: foot.l 4
+    100050: foot.l 5
+    100052: foot.l 6
+    100054: foot.l 7
+    100056: foot.l 8
+    100058: foot.l 9
+    100060: foot.l_end
+    100062: foot.l_end 1
+    100064: foot.l_end 2
+    100066: foot.l_end 3
+    100068: foot.l_end 4
+    100070: foot.l_end 5
+    100072: foot.l_end 6
+    100074: foot.l_end 7
+    100076: foot.l_end 8
+    100078: foot.l_end 9
+    100080: foot.l_end_end
+    100082: foot.l_end_end 1
+    100084: foot.l_end_end 2
+    100086: foot.l_end_end 3
+    100088: foot.l_end_end 4
+    100090: foot.l_end_end 5
+    100092: foot.l_end_end 6
+    100094: foot.l_end_end 7
+    100096: foot.l_end_end 8
+    100098: foot.l_end_end 9
+    100100: foot.r
+    100102: foot.r 1
+    100104: foot.r 2
+    100106: foot.r 3
+    100108: foot.r 4
+    100110: foot.r 5
+    100112: foot.r 6
+    100114: foot.r 7
+    100116: foot.r 8
+    100118: foot.r 9
+    100120: foot.r_end
+    100122: foot.r_end 1
+    100124: foot.r_end 2
+    100126: foot.r_end 3
+    100128: foot.r_end 4
+    100130: foot.r_end 5
+    100132: foot.r_end 6
+    100134: foot.r_end 7
+    100136: foot.r_end 8
+    100138: foot.r_end 9
+    100140: foot.r_end_end
+    100142: foot.r_end_end 1
+    100144: foot.r_end_end 2
+    100146: foot.r_end_end 3
+    100148: foot.r_end_end 4
+    100150: foot.r_end_end 5
+    100152: foot.r_end_end 6
+    100154: foot.r_end_end 7
+    100156: foot.r_end_end 8
+    100158: foot.r_end_end 9
+    100160: hand.l
+    100162: hand.l 1
+    100164: hand.l 2
+    100166: hand.l 3
+    100168: hand.l 4
+    100170: hand.l 5
+    100172: hand.l 6
+    100174: hand.l 7
+    100176: hand.l 8
+    100178: hand.l 9
+    100180: hand.l_end
+    100182: hand.l_end 1
+    100184: hand.l_end 2
+    100186: hand.l_end 3
+    100188: hand.l_end 4
+    100190: hand.l_end 5
+    100192: hand.l_end 6
+    100194: hand.l_end 7
+    100196: hand.l_end 8
+    100198: hand.l_end 9
+    100200: hand.l_end_end
+    100202: hand.l_end_end 1
+    100204: hand.l_end_end 2
+    100206: hand.l_end_end 3
+    100208: hand.l_end_end 4
+    100210: hand.l_end_end 5
+    100212: hand.l_end_end 6
+    100214: hand.l_end_end 7
+    100216: hand.l_end_end 8
+    100218: hand.l_end_end 9
+    100220: hand.r
+    100222: hand.r 1
+    100224: hand.r 2
+    100226: hand.r 3
+    100228: hand.r 4
+    100230: hand.r 5
+    100232: hand.r 6
+    100234: hand.r 7
+    100236: hand.r 8
+    100238: hand.r 9
+    100240: hand.r_end
+    100242: hand.r_end 1
+    100244: hand.r_end 2
+    100246: hand.r_end 3
+    100248: hand.r_end 4
+    100250: hand.r_end 5
+    100252: hand.r_end 6
+    100254: hand.r_end 7
+    100256: hand.r_end 8
+    100258: hand.r_end 9
+    100260: hand.r_end_end
+    100262: hand.r_end_end 1
+    100264: hand.r_end_end 2
+    100266: hand.r_end_end 3
+    100268: hand.r_end_end 4
+    100270: hand.r_end_end 5
+    100272: hand.r_end_end 6
+    100274: hand.r_end_end 7
+    100276: hand.r_end_end 8
+    100278: hand.r_end_end 9
+    100280: head
+    100282: head 1
+    100284: head 2
+    100286: head 3
+    100288: head 4
+    100290: head 5
+    100292: head 6
+    100294: head 7
+    100296: head 8
+    100298: head 9
+    100300: head_end
+    100302: head_end 1
+    100304: head_end 2
+    100306: head_end 3
+    100308: head_end 4
+    100310: head_end 5
+    100312: head_end 6
+    100314: head_end 7
+    100316: head_end 8
+    100318: head_end 9
+    100320: head_end_end
+    100322: head_end_end 1
+    100324: head_end_end 2
+    100326: head_end_end 3
+    100328: head_end_end 4
+    100330: head_end_end 5
+    100332: head_end_end 6
+    100334: head_end_end 7
+    100336: head_end_end 8
+    100338: head_end_end 9
+    100340: hip
+    100342: hip 1
+    100344: hip 2
+    100346: hip 3
+    100348: hip 4
+    100350: hip 5
+    100352: hip 6
+    100354: hip 7
+    100356: hip 8
+    100358: hip 9
+    100360: //RootNode
+    100362: kneePole.l
+    100364: kneePole.l 1
+    100366: kneePole.l 2
+    100368: kneePole.l 3
+    100370: kneePole.l 4
+    100372: kneePole.l 5
+    100374: kneePole.l 6
+    100376: kneePole.l 7
+    100378: kneePole.l 8
+    100380: kneePole.l 9
+    100382: kneePole.l_end
+    100384: kneePole.l_end 1
+    100386: kneePole.l_end 2
+    100388: kneePole.l_end 3
+    100390: kneePole.l_end 4
+    100392: kneePole.l_end 5
+    100394: kneePole.l_end 6
+    100396: kneePole.l_end 7
+    100398: kneePole.l_end 8
+    100400: kneePole.l_end 9
+    100402: kneePole.l_end_end
+    100404: kneePole.l_end_end 1
+    100406: kneePole.l_end_end 2
+    100408: kneePole.l_end_end 3
+    100410: kneePole.l_end_end 4
+    100412: kneePole.l_end_end 5
+    100414: kneePole.l_end_end 6
+    100416: kneePole.l_end_end 7
+    100418: kneePole.l_end_end 8
+    100420: kneePole.l_end_end 9
+    100422: kneePole.r
+    100424: kneePole.r 1
+    100426: kneePole.r 2
+    100428: kneePole.r 3
+    100430: kneePole.r 4
+    100432: kneePole.r 5
+    100434: kneePole.r 6
+    100436: kneePole.r 7
+    100438: kneePole.r 8
+    100440: kneePole.r 9
+    100442: kneePole.r_end
+    100444: kneePole.r_end 1
+    100446: kneePole.r_end 2
+    100448: kneePole.r_end 3
+    100450: kneePole.r_end 4
+    100452: kneePole.r_end 5
+    100454: kneePole.r_end 6
+    100456: kneePole.r_end 7
+    100458: kneePole.r_end 8
+    100460: kneePole.r_end 9
+    100462: kneePole.r_end_end
+    100464: kneePole.r_end_end 1
+    100466: kneePole.r_end_end 2
+    100468: kneePole.r_end_end 3
+    100470: kneePole.r_end_end 4
+    100472: kneePole.r_end_end 5
+    100474: kneePole.r_end_end 6
+    100476: kneePole.r_end_end 7
+    100478: kneePole.r_end_end 8
+    100480: kneePole.r_end_end 9
+    100482: legIK.l
+    100484: legIK.l 1
+    100486: legIK.l 2
+    100488: legIK.l 3
+    100490: legIK.l 4
+    100492: legIK.l 5
+    100494: legIK.l 6
+    100496: legIK.l 7
+    100498: legIK.l 8
+    100500: legIK.l 9
+    100502: legIK.l_end
+    100504: legIK.l_end 1
+    100506: legIK.l_end 2
+    100508: legIK.l_end 3
+    100510: legIK.l_end 4
+    100512: legIK.l_end 5
+    100514: legIK.l_end 6
+    100516: legIK.l_end 7
+    100518: legIK.l_end 8
+    100520: legIK.l_end 9
+    100522: legIK.l_end_end
+    100524: legIK.l_end_end 1
+    100526: legIK.l_end_end 2
+    100528: legIK.l_end_end 3
+    100530: legIK.l_end_end 4
+    100532: legIK.l_end_end 5
+    100534: legIK.l_end_end 6
+    100536: legIK.l_end_end 7
+    100538: legIK.l_end_end 8
+    100540: legIK.l_end_end 9
+    100542: legIK.r
+    100544: legIK.r 1
+    100546: legIK.r 2
+    100548: legIK.r 3
+    100550: legIK.r 4
+    100552: legIK.r 5
+    100554: legIK.r 6
+    100556: legIK.r 7
+    100558: legIK.r 8
+    100560: legIK.r 9
+    100562: legIK.r_end
+    100564: legIK.r_end 1
+    100566: legIK.r_end 2
+    100568: legIK.r_end 3
+    100570: legIK.r_end 4
+    100572: legIK.r_end 5
+    100574: legIK.r_end 6
+    100576: legIK.r_end 7
+    100578: legIK.r_end 8
+    100580: legIK.r_end 9
+    100582: legIK.r_end_end
+    100584: legIK.r_end_end 1
+    100586: legIK.r_end_end 2
+    100588: legIK.r_end_end 3
+    100590: legIK.r_end_end 4
+    100592: legIK.r_end_end 5
+    100594: legIK.r_end_end 6
+    100596: legIK.r_end_end 7
+    100598: legIK.r_end_end 8
+    100600: legIK.r_end_end 9
+    100602: lowerArm.l
+    100604: lowerArm.l 1
+    100606: lowerArm.l 2
+    100608: lowerArm.l 3
+    100610: lowerArm.l 4
+    100612: lowerArm.l 5
+    100614: lowerArm.l 6
+    100616: lowerArm.l 7
+    100618: lowerArm.l 8
+    100620: lowerArm.l 9
+    100622: lowerArm.r
+    100624: lowerArm.r 1
+    100626: lowerArm.r 2
+    100628: lowerArm.r 3
+    100630: lowerArm.r 4
+    100632: lowerArm.r 5
+    100634: lowerArm.r 6
+    100636: lowerArm.r 7
+    100638: lowerArm.r 8
+    100640: lowerArm.r 9
+    100642: lowerLeg.l
+    100644: lowerLeg.l 1
+    100646: lowerLeg.l 2
+    100648: lowerLeg.l 3
+    100650: lowerLeg.l 4
+    100652: lowerLeg.l 5
+    100654: lowerLeg.l 6
+    100656: lowerLeg.l 7
+    100658: lowerLeg.l 8
+    100660: lowerLeg.l 9
+    100662: lowerLeg.r
+    100664: lowerLeg.r 1
+    100666: lowerLeg.r 2
+    100668: lowerLeg.r 3
+    100670: lowerLeg.r 4
+    100672: lowerLeg.r 5
+    100674: lowerLeg.r 6
+    100676: lowerLeg.r 7
+    100678: lowerLeg.r 8
+    100680: lowerLeg.r 9
+    100682: LowPolyNormalMan
+    100684: neck
+    100686: neck 1
+    100688: neck 2
+    100690: neck 3
+    100692: neck 4
+    100694: neck 5
+    100696: neck 6
+    100698: neck 7
+    100700: neck 8
+    100702: neck 9
+    100704: root
+    100706: root 1
+    100708: root 2
+    100710: root 3
+    100712: root 4
+    100714: root 5
+    100716: root 6
+    100718: root 7
+    100720: root 8
+    100722: root 9
+    100724: upperArm.l
+    100726: upperArm.l 1
+    100728: upperArm.l 2
+    100730: upperArm.l 3
+    100732: upperArm.l 4
+    100734: upperArm.l 5
+    100736: upperArm.l 6
+    100738: upperArm.l 7
+    100740: upperArm.l 8
+    100742: upperArm.l 9
+    100744: upperArm.r
+    100746: upperArm.r 1
+    100748: upperArm.r 2
+    100750: upperArm.r 3
+    100752: upperArm.r 4
+    100754: upperArm.r 5
+    100756: upperArm.r 6
+    100758: upperArm.r 7
+    100760: upperArm.r 8
+    100762: upperArm.r 9
+    100764: upperLeg.l
+    100766: upperLeg.l 1
+    100768: upperLeg.l 2
+    100770: upperLeg.l 3
+    100772: upperLeg.l 4
+    100774: upperLeg.l 5
+    100776: upperLeg.l 6
+    100778: upperLeg.l 7
+    100780: upperLeg.l 8
+    100782: upperLeg.l 9
+    100784: upperLeg.r
+    100786: upperLeg.r 1
+    100788: upperLeg.r 2
+    100790: upperLeg.r 3
+    100792: upperLeg.r 4
+    100794: upperLeg.r 5
+    100796: upperLeg.r 6
+    100798: upperLeg.r 7
+    100800: upperLeg.r 8
+    100802: upperLeg.r 9
+    400000: Armature
+    400002: Armature.001
+    400004: Armature.002
+    400006: Armature.003
+    400008: Armature.004
+    400010: Armature.005
+    400012: Armature.006
+    400014: Armature.007
+    400016: Armature.008
+    400018: Armature.009
+    400020: chest
+    400022: chest 1
+    400024: chest 2
+    400026: chest 3
+    400028: chest 4
+    400030: chest 5
+    400032: chest 6
+    400034: chest 7
+    400036: chest 8
+    400038: chest 9
+    400040: foot.l
+    400042: foot.l 1
+    400044: foot.l 2
+    400046: foot.l 3
+    400048: foot.l 4
+    400050: foot.l 5
+    400052: foot.l 6
+    400054: foot.l 7
+    400056: foot.l 8
+    400058: foot.l 9
+    400060: foot.l_end
+    400062: foot.l_end 1
+    400064: foot.l_end 2
+    400066: foot.l_end 3
+    400068: foot.l_end 4
+    400070: foot.l_end 5
+    400072: foot.l_end 6
+    400074: foot.l_end 7
+    400076: foot.l_end 8
+    400078: foot.l_end 9
+    400080: foot.l_end_end
+    400082: foot.l_end_end 1
+    400084: foot.l_end_end 2
+    400086: foot.l_end_end 3
+    400088: foot.l_end_end 4
+    400090: foot.l_end_end 5
+    400092: foot.l_end_end 6
+    400094: foot.l_end_end 7
+    400096: foot.l_end_end 8
+    400098: foot.l_end_end 9
+    400100: foot.r
+    400102: foot.r 1
+    400104: foot.r 2
+    400106: foot.r 3
+    400108: foot.r 4
+    400110: foot.r 5
+    400112: foot.r 6
+    400114: foot.r 7
+    400116: foot.r 8
+    400118: foot.r 9
+    400120: foot.r_end
+    400122: foot.r_end 1
+    400124: foot.r_end 2
+    400126: foot.r_end 3
+    400128: foot.r_end 4
+    400130: foot.r_end 5
+    400132: foot.r_end 6
+    400134: foot.r_end 7
+    400136: foot.r_end 8
+    400138: foot.r_end 9
+    400140: foot.r_end_end
+    400142: foot.r_end_end 1
+    400144: foot.r_end_end 2
+    400146: foot.r_end_end 3
+    400148: foot.r_end_end 4
+    400150: foot.r_end_end 5
+    400152: foot.r_end_end 6
+    400154: foot.r_end_end 7
+    400156: foot.r_end_end 8
+    400158: foot.r_end_end 9
+    400160: hand.l
+    400162: hand.l 1
+    400164: hand.l 2
+    400166: hand.l 3
+    400168: hand.l 4
+    400170: hand.l 5
+    400172: hand.l 6
+    400174: hand.l 7
+    400176: hand.l 8
+    400178: hand.l 9
+    400180: hand.l_end
+    400182: hand.l_end 1
+    400184: hand.l_end 2
+    400186: hand.l_end 3
+    400188: hand.l_end 4
+    400190: hand.l_end 5
+    400192: hand.l_end 6
+    400194: hand.l_end 7
+    400196: hand.l_end 8
+    400198: hand.l_end 9
+    400200: hand.l_end_end
+    400202: hand.l_end_end 1
+    400204: hand.l_end_end 2
+    400206: hand.l_end_end 3
+    400208: hand.l_end_end 4
+    400210: hand.l_end_end 5
+    400212: hand.l_end_end 6
+    400214: hand.l_end_end 7
+    400216: hand.l_end_end 8
+    400218: hand.l_end_end 9
+    400220: hand.r
+    400222: hand.r 1
+    400224: hand.r 2
+    400226: hand.r 3
+    400228: hand.r 4
+    400230: hand.r 5
+    400232: hand.r 6
+    400234: hand.r 7
+    400236: hand.r 8
+    400238: hand.r 9
+    400240: hand.r_end
+    400242: hand.r_end 1
+    400244: hand.r_end 2
+    400246: hand.r_end 3
+    400248: hand.r_end 4
+    400250: hand.r_end 5
+    400252: hand.r_end 6
+    400254: hand.r_end 7
+    400256: hand.r_end 8
+    400258: hand.r_end 9
+    400260: hand.r_end_end
+    400262: hand.r_end_end 1
+    400264: hand.r_end_end 2
+    400266: hand.r_end_end 3
+    400268: hand.r_end_end 4
+    400270: hand.r_end_end 5
+    400272: hand.r_end_end 6
+    400274: hand.r_end_end 7
+    400276: hand.r_end_end 8
+    400278: hand.r_end_end 9
+    400280: head
+    400282: head 1
+    400284: head 2
+    400286: head 3
+    400288: head 4
+    400290: head 5
+    400292: head 6
+    400294: head 7
+    400296: head 8
+    400298: head 9
+    400300: head_end
+    400302: head_end 1
+    400304: head_end 2
+    400306: head_end 3
+    400308: head_end 4
+    400310: head_end 5
+    400312: head_end 6
+    400314: head_end 7
+    400316: head_end 8
+    400318: head_end 9
+    400320: head_end_end
+    400322: head_end_end 1
+    400324: head_end_end 2
+    400326: head_end_end 3
+    400328: head_end_end 4
+    400330: head_end_end 5
+    400332: head_end_end 6
+    400334: head_end_end 7
+    400336: head_end_end 8
+    400338: head_end_end 9
+    400340: hip
+    400342: hip 1
+    400344: hip 2
+    400346: hip 3
+    400348: hip 4
+    400350: hip 5
+    400352: hip 6
+    400354: hip 7
+    400356: hip 8
+    400358: hip 9
+    400360: //RootNode
+    400362: kneePole.l
+    400364: kneePole.l 1
+    400366: kneePole.l 2
+    400368: kneePole.l 3
+    400370: kneePole.l 4
+    400372: kneePole.l 5
+    400374: kneePole.l 6
+    400376: kneePole.l 7
+    400378: kneePole.l 8
+    400380: kneePole.l 9
+    400382: kneePole.l_end
+    400384: kneePole.l_end 1
+    400386: kneePole.l_end 2
+    400388: kneePole.l_end 3
+    400390: kneePole.l_end 4
+    400392: kneePole.l_end 5
+    400394: kneePole.l_end 6
+    400396: kneePole.l_end 7
+    400398: kneePole.l_end 8
+    400400: kneePole.l_end 9
+    400402: kneePole.l_end_end
+    400404: kneePole.l_end_end 1
+    400406: kneePole.l_end_end 2
+    400408: kneePole.l_end_end 3
+    400410: kneePole.l_end_end 4
+    400412: kneePole.l_end_end 5
+    400414: kneePole.l_end_end 6
+    400416: kneePole.l_end_end 7
+    400418: kneePole.l_end_end 8
+    400420: kneePole.l_end_end 9
+    400422: kneePole.r
+    400424: kneePole.r 1
+    400426: kneePole.r 2
+    400428: kneePole.r 3
+    400430: kneePole.r 4
+    400432: kneePole.r 5
+    400434: kneePole.r 6
+    400436: kneePole.r 7
+    400438: kneePole.r 8
+    400440: kneePole.r 9
+    400442: kneePole.r_end
+    400444: kneePole.r_end 1
+    400446: kneePole.r_end 2
+    400448: kneePole.r_end 3
+    400450: kneePole.r_end 4
+    400452: kneePole.r_end 5
+    400454: kneePole.r_end 6
+    400456: kneePole.r_end 7
+    400458: kneePole.r_end 8
+    400460: kneePole.r_end 9
+    400462: kneePole.r_end_end
+    400464: kneePole.r_end_end 1
+    400466: kneePole.r_end_end 2
+    400468: kneePole.r_end_end 3
+    400470: kneePole.r_end_end 4
+    400472: kneePole.r_end_end 5
+    400474: kneePole.r_end_end 6
+    400476: kneePole.r_end_end 7
+    400478: kneePole.r_end_end 8
+    400480: kneePole.r_end_end 9
+    400482: legIK.l
+    400484: legIK.l 1
+    400486: legIK.l 2
+    400488: legIK.l 3
+    400490: legIK.l 4
+    400492: legIK.l 5
+    400494: legIK.l 6
+    400496: legIK.l 7
+    400498: legIK.l 8
+    400500: legIK.l 9
+    400502: legIK.l_end
+    400504: legIK.l_end 1
+    400506: legIK.l_end 2
+    400508: legIK.l_end 3
+    400510: legIK.l_end 4
+    400512: legIK.l_end 5
+    400514: legIK.l_end 6
+    400516: legIK.l_end 7
+    400518: legIK.l_end 8
+    400520: legIK.l_end 9
+    400522: legIK.l_end_end
+    400524: legIK.l_end_end 1
+    400526: legIK.l_end_end 2
+    400528: legIK.l_end_end 3
+    400530: legIK.l_end_end 4
+    400532: legIK.l_end_end 5
+    400534: legIK.l_end_end 6
+    400536: legIK.l_end_end 7
+    400538: legIK.l_end_end 8
+    400540: legIK.l_end_end 9
+    400542: legIK.r
+    400544: legIK.r 1
+    400546: legIK.r 2
+    400548: legIK.r 3
+    400550: legIK.r 4
+    400552: legIK.r 5
+    400554: legIK.r 6
+    400556: legIK.r 7
+    400558: legIK.r 8
+    400560: legIK.r 9
+    400562: legIK.r_end
+    400564: legIK.r_end 1
+    400566: legIK.r_end 2
+    400568: legIK.r_end 3
+    400570: legIK.r_end 4
+    400572: legIK.r_end 5
+    400574: legIK.r_end 6
+    400576: legIK.r_end 7
+    400578: legIK.r_end 8
+    400580: legIK.r_end 9
+    400582: legIK.r_end_end
+    400584: legIK.r_end_end 1
+    400586: legIK.r_end_end 2
+    400588: legIK.r_end_end 3
+    400590: legIK.r_end_end 4
+    400592: legIK.r_end_end 5
+    400594: legIK.r_end_end 6
+    400596: legIK.r_end_end 7
+    400598: legIK.r_end_end 8
+    400600: legIK.r_end_end 9
+    400602: lowerArm.l
+    400604: lowerArm.l 1
+    400606: lowerArm.l 2
+    400608: lowerArm.l 3
+    400610: lowerArm.l 4
+    400612: lowerArm.l 5
+    400614: lowerArm.l 6
+    400616: lowerArm.l 7
+    400618: lowerArm.l 8
+    400620: lowerArm.l 9
+    400622: lowerArm.r
+    400624: lowerArm.r 1
+    400626: lowerArm.r 2
+    400628: lowerArm.r 3
+    400630: lowerArm.r 4
+    400632: lowerArm.r 5
+    400634: lowerArm.r 6
+    400636: lowerArm.r 7
+    400638: lowerArm.r 8
+    400640: lowerArm.r 9
+    400642: lowerLeg.l
+    400644: lowerLeg.l 1
+    400646: lowerLeg.l 2
+    400648: lowerLeg.l 3
+    400650: lowerLeg.l 4
+    400652: lowerLeg.l 5
+    400654: lowerLeg.l 6
+    400656: lowerLeg.l 7
+    400658: lowerLeg.l 8
+    400660: lowerLeg.l 9
+    400662: lowerLeg.r
+    400664: lowerLeg.r 1
+    400666: lowerLeg.r 2
+    400668: lowerLeg.r 3
+    400670: lowerLeg.r 4
+    400672: lowerLeg.r 5
+    400674: lowerLeg.r 6
+    400676: lowerLeg.r 7
+    400678: lowerLeg.r 8
+    400680: lowerLeg.r 9
+    400682: LowPolyNormalMan
+    400684: neck
+    400686: neck 1
+    400688: neck 2
+    400690: neck 3
+    400692: neck 4
+    400694: neck 5
+    400696: neck 6
+    400698: neck 7
+    400700: neck 8
+    400702: neck 9
+    400704: root
+    400706: root 1
+    400708: root 2
+    400710: root 3
+    400712: root 4
+    400714: root 5
+    400716: root 6
+    400718: root 7
+    400720: root 8
+    400722: root 9
+    400724: upperArm.l
+    400726: upperArm.l 1
+    400728: upperArm.l 2
+    400730: upperArm.l 3
+    400732: upperArm.l 4
+    400734: upperArm.l 5
+    400736: upperArm.l 6
+    400738: upperArm.l 7
+    400740: upperArm.l 8
+    400742: upperArm.l 9
+    400744: upperArm.r
+    400746: upperArm.r 1
+    400748: upperArm.r 2
+    400750: upperArm.r 3
+    400752: upperArm.r 4
+    400754: upperArm.r 5
+    400756: upperArm.r 6
+    400758: upperArm.r 7
+    400760: upperArm.r 8
+    400762: upperArm.r 9
+    400764: upperLeg.l
+    400766: upperLeg.l 1
+    400768: upperLeg.l 2
+    400770: upperLeg.l 3
+    400772: upperLeg.l 4
+    400774: upperLeg.l 5
+    400776: upperLeg.l 6
+    400778: upperLeg.l 7
+    400780: upperLeg.l 8
+    400782: upperLeg.l 9
+    400784: upperLeg.r
+    400786: upperLeg.r 1
+    400788: upperLeg.r 2
+    400790: upperLeg.r 3
+    400792: upperLeg.r 4
+    400794: upperLeg.r 5
+    400796: upperLeg.r 6
+    400798: upperLeg.r 7
+    400800: upperLeg.r 8
+    400802: upperLeg.r 9
+    2100000: AnimeChar
+    4300000: LowPolyNormalMan
+    7400000: idle
+    7400002: punch-elbow
+    7400004: run
+    7400006: walk
+    7400008: kick-tornado
+    7400010: punch
+    7400012: kick
+    7400014: punch-hard
+    7400016: Tpose
+    7400018: Armature|elbow
+    7400020: Armature|idle
+    7400022: Armature|kick
+    7400024: Armature|kick-tornado
+    7400026: Armature|mixamo.com
+    7400028: Armature|mixamo.com.001
+    7400030: Armature|mixamo.com.003
+    7400032: Armature|punch
+    7400034: Armature|punch-hard
+    7400036: Armature|run
+    7400038: Armature|Tpose
+    7400040: Armature|walk
+    7400042: Armature.001|elbow
+    7400044: Armature.001|idle
+    7400046: Armature.001|kick
+    7400048: Armature.001|kick-tornado
+    7400050: Armature.001|mixamo.com
+    7400052: Armature.001|mixamo.com.001
+    7400054: Armature.001|mixamo.com.003
+    7400056: Armature.001|punch
+    7400058: Armature.001|punch-hard
+    7400060: Armature.001|run
+    7400062: Armature.001|Tpose
+    7400064: Armature.001|walk
+    7400066: Armature.002|elbow
+    7400068: Armature.002|idle
+    7400070: Armature.002|kick
+    7400072: Armature.002|kick-tornado
+    7400074: Armature.002|mixamo.com
+    7400076: Armature.002|mixamo.com.001
+    7400078: Armature.002|mixamo.com.003
+    7400080: Armature.002|punch
+    7400082: Armature.002|punch-hard
+    7400084: Armature.002|run
+    7400086: Armature.002|Tpose
+    7400088: Armature.002|walk
+    7400090: Armature.003|elbow
+    7400092: Armature.003|idle
+    7400094: Armature.003|kick
+    7400096: Armature.003|kick-tornado
+    7400098: Armature.003|mixamo.com
+    7400100: Armature.003|mixamo.com.001
+    7400102: Armature.003|mixamo.com.003
+    7400104: Armature.003|punch
+    7400106: Armature.003|punch-hard
+    7400108: Armature.003|run
+    7400110: Armature.003|Tpose
+    7400112: Armature.003|walk
+    7400114: Armature.004|elbow
+    7400116: Armature.004|idle
+    7400118: Armature.004|kick
+    7400120: Armature.004|kick-tornado
+    7400122: Armature.004|mixamo.com
+    7400124: Armature.004|mixamo.com.001
+    7400126: Armature.004|mixamo.com.003
+    7400128: Armature.004|punch
+    7400130: Armature.004|punch-hard
+    7400132: Armature.004|run
+    7400134: Armature.004|Tpose
+    7400136: Armature.004|walk
+    7400138: Armature.005|elbow
+    7400140: Armature.005|idle
+    7400142: Armature.005|kick
+    7400144: Armature.005|kick-tornado
+    7400146: Armature.005|mixamo.com
+    7400148: Armature.005|mixamo.com.001
+    7400150: Armature.005|mixamo.com.003
+    7400152: Armature.005|punch
+    7400154: Armature.005|punch-hard
+    7400156: Armature.005|run
+    7400158: Armature.005|Tpose
+    7400160: Armature.005|walk
+    7400162: Armature.006|elbow
+    7400164: Armature.006|idle
+    7400166: Armature.006|kick
+    7400168: Armature.006|kick-tornado
+    7400170: Armature.006|mixamo.com
+    7400172: Armature.006|mixamo.com.001
+    7400174: Armature.006|mixamo.com.003
+    7400176: Armature.006|punch
+    7400178: Armature.006|punch-hard
+    7400180: Armature.006|run
+    7400182: Armature.006|Tpose
+    7400184: Armature.006|walk
+    7400186: Armature.007|elbow
+    7400188: Armature.007|idle
+    7400190: Armature.007|kick
+    7400192: Armature.007|kick-tornado
+    7400194: Armature.007|mixamo.com
+    7400196: Armature.007|mixamo.com.001
+    7400198: Armature.007|mixamo.com.003
+    7400200: Armature.007|punch
+    7400202: Armature.007|punch-hard
+    7400204: Armature.007|run
+    7400206: Armature.007|Tpose
+    7400208: Armature.007|walk
+    7400210: Armature.008|elbow
+    7400212: Armature.008|idle
+    7400214: Armature.008|kick
+    7400216: Armature.008|kick-tornado
+    7400218: Armature.008|mixamo.com
+    7400220: Armature.008|mixamo.com.001
+    7400222: Armature.008|mixamo.com.003
+    7400224: Armature.008|punch
+    7400226: Armature.008|punch-hard
+    7400228: Armature.008|run
+    7400230: Armature.008|Tpose
+    7400232: Armature.008|walk
+    7400234: Armature.009|elbow
+    7400236: Armature.009|idle
+    7400238: Armature.009|kick
+    7400240: Armature.009|kick-tornado
+    7400242: Armature.009|mixamo.com
+    7400244: Armature.009|mixamo.com.001
+    7400246: Armature.009|mixamo.com.003
+    7400248: Armature.009|punch
+    7400250: Armature.009|punch-hard
+    7400252: Armature.009|run
+    7400254: Armature.009|Tpose
+    7400256: Armature.009|walk
+    9500000: //RootNode
+    13700000: LowPolyNormalMan
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

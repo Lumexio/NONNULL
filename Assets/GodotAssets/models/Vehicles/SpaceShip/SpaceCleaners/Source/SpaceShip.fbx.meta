@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 2aae93cebfd02ac49b32d2ce81c3825a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ButtonInside
+    100002: ButtonInside.001
+    100004: ButtonOutSide
+    100006: Camera
+    100008: Camera.001
+    100010: Door
+    100012: Door_L
+    100014: Door_R
+    100016: DoorInside.001
+    100018: Empty
+    100020: FloorHole
+    100022: Handle
+    100024: Paper
+    100026: //RootNode
+    100028: SpaceShip_SpaceCollectors
+    100030: Sun
+    100032: Sun.001
+    100034: Sun.002
+    100036: Sun.003
+    100038: Sun.004
+    100040: Sun.005
+    100042: Window
+    400000: ButtonInside
+    400002: ButtonInside.001
+    400004: ButtonOutSide
+    400006: Camera
+    400008: Camera.001
+    400010: Door
+    400012: Door_L
+    400014: Door_R
+    400016: DoorInside.001
+    400018: Empty
+    400020: FloorHole
+    400022: Handle
+    400024: Paper
+    400026: //RootNode
+    400028: SpaceShip_SpaceCollectors
+    400030: Sun
+    400032: Sun.001
+    400034: Sun.002
+    400036: Sun.003
+    400038: Sun.004
+    400040: Sun.005
+    400042: Window
+    2000000: Camera
+    2000002: Camera.001
+    2100000: SpaceShip
+    2100002: No Name
+    2100004: Glass
+    2300000: ButtonInside
+    2300002: ButtonInside.001
+    2300004: ButtonOutSide
+    2300006: Door
+    2300008: Door_L
+    2300010: Door_R
+    2300012: DoorInside.001
+    2300014: FloorHole
+    2300016: Handle
+    2300018: Paper
+    2300020: SpaceShip_SpaceCollectors
+    2300022: Window
+    3300000: ButtonInside
+    3300002: ButtonInside.001
+    3300004: ButtonOutSide
+    3300006: Door
+    3300008: Door_L
+    3300010: Door_R
+    3300012: DoorInside.001
+    3300014: FloorHole
+    3300016: Handle
+    3300018: Paper
+    3300020: SpaceShip_SpaceCollectors
+    3300022: Window
+    4300000: SpaceShip_SpaceCollectors
+    4300002: ButtonInside
+    4300004: ButtonInside.001
+    4300006: ButtonOutSide
+    4300008: Door
+    4300010: DoorInside.001
+    4300012: Door_L
+    4300014: Door_R
+    4300016: FloorHole
+    4300018: Handle
+    4300020: Paper
+    4300022: Window
+    10800000: Sun
+    10800002: Sun.001
+    10800004: Sun.002
+    10800006: Sun.003
+    10800008: Sun.004
+    10800010: Sun.005
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

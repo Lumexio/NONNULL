@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 5255f898a07977943b425233be20d2f1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: antenna 1
+    100004: antenna 2
+    100006: button
+    100008: c4
+    100010: c4 antenna 1
+    100012: c4 antenna 2
+    100014: c4 armature
+    100016: c4 ik 2
+    100018: controller ik 1
+    100020: grenade
+    100022: grenade launcher
+    100024: grenade launcher ammo
+    100026: grenade launcher armature
+    100028: grenade launcher ik 1
+    100030: grenade launcher ik 2
+    100032: grenade or incendiary armature
+    100034: ik 1
+    100036: ik 2
+    100038: meele weapon
+    100040: pistol
+    100042: pistol armature
+    100044: pistol base ik
+    100046: pistol mag
+    100048: pistol rail
+    100050: rail left
+    100052: rail right
+    100054: reload case
+    100056: revolver
+    100058: revolver ammo
+    100060: revolver armature
+    100062: revolver barrel
+    100064: revolver base ik
+    100066: revolver rail
+    100068: rifle armature
+    100070: rifle ik 1
+    100072: rifle ik 2
+    100074: rifle mag
+    100076: rifle mag 1
+    100078: rifle rail bottom
+    100080: rifle rail recoil
+    100082: rifle rail top
+    100084: rotation rails
+    100086: rpg ammo
+    100088: rpg ammo 1
+    100090: rpg armature
+    100092: rpg ik 1
+    100094: rpg ik 2
+    100096: rpg rail bottom
+    100098: rpg rail top
+    100100: sci-fi ammo
+    100102: sci-fi ik 1
+    100104: sci-fi ik 2
+    100106: sci-fi weapon
+    100108: sci-fi weapon armature
+    100110: shell deposit
+    100112: shotgun
+    100114: shotgun ammo
+    100116: shotgun armature
+    100118: shotgun ik 1
+    100120: shotgun ik 2
+    100122: shotgun rail 1
+    100124: shotgun rail 2
+    100126: smg
+    100128: smg ammo
+    100130: smg armature
+    100132: smg ik 1
+    100134: smg ik 2
+    100136: sniper
+    100138: sniper ammo
+    100140: sniper armature
+    100142: sniper ik 1
+    100144: sniper ik 2
+    100146: sniper rail
+    100148: stick bar below
+    100150: stick bar middle
+    100152: stick baton armature
+    100154: stick ik
+    400000: //RootNode
+    400002: antenna 1
+    400004: antenna 2
+    400006: button
+    400008: c4
+    400010: c4 antenna 1
+    400012: c4 antenna 2
+    400014: c4 armature
+    400016: c4 ik 2
+    400018: controller ik 1
+    400020: grenade
+    400022: grenade launcher
+    400024: grenade launcher ammo
+    400026: grenade launcher armature
+    400028: grenade launcher ik 1
+    400030: grenade launcher ik 2
+    400032: grenade or incendiary armature
+    400034: ik 1
+    400036: ik 2
+    400038: meele weapon
+    400040: pistol
+    400042: pistol armature
+    400044: pistol base ik
+    400046: pistol mag
+    400048: pistol rail
+    400050: rail left
+    400052: rail right
+    400054: reload case
+    400056: revolver
+    400058: revolver ammo
+    400060: revolver armature
+    400062: revolver barrel
+    400064: revolver base ik
+    400066: revolver rail
+    400068: rifle armature
+    400070: rifle ik 1
+    400072: rifle ik 2
+    400074: rifle mag
+    400076: rifle mag 1
+    400078: rifle rail bottom
+    400080: rifle rail recoil
+    400082: rifle rail top
+    400084: rotation rails
+    400086: rpg ammo
+    400088: rpg ammo 1
+    400090: rpg armature
+    400092: rpg ik 1
+    400094: rpg ik 2
+    400096: rpg rail bottom
+    400098: rpg rail top
+    400100: sci-fi ammo
+    400102: sci-fi ik 1
+    400104: sci-fi ik 2
+    400106: sci-fi weapon
+    400108: sci-fi weapon armature
+    400110: shell deposit
+    400112: shotgun
+    400114: shotgun ammo
+    400116: shotgun armature
+    400118: shotgun ik 1
+    400120: shotgun ik 2
+    400122: shotgun rail 1
+    400124: shotgun rail 2
+    400126: smg
+    400128: smg ammo
+    400130: smg armature
+    400132: smg ik 1
+    400134: smg ik 2
+    400136: sniper
+    400138: sniper ammo
+    400140: sniper armature
+    400142: sniper ik 1
+    400144: sniper ik 2
+    400146: sniper rail
+    400148: stick bar below
+    400150: stick bar middle
+    400152: stick baton armature
+    400154: stick ik
+    2100000: Material.049
+    2100002: Material.035
+    2100004: Material.008
+    2100006: Material.016
+    2100008: Material.001
+    2100010: Material.030
+    2100012: Material.014
+    2100014: Material.002
+    2100016: Material.057
+    2100018: Material.007
+    2100020: Material.025
+    2100022: Material.006
+    4300000: c4
+    4300002: grenade
+    4300004: grenade launcher
+    4300006: meele weapon
+    4300008: pistol
+    4300010: revolver
+    4300012: rifle mag
+    4300014: rpg ammo
+    4300016: sci-fi weapon
+    4300018: shotgun
+    4300020: smg
+    4300022: sniper
+    9500000: //RootNode
+    13700000: c4
+    13700002: grenade
+    13700004: grenade launcher
+    13700006: meele weapon
+    13700008: pistol
+    13700010: revolver
+    13700012: rifle mag
+    13700014: rpg ammo
+    13700016: sci-fi weapon
+    13700018: shotgun
+    13700020: smg
+    13700022: sniper
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

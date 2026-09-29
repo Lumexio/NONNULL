@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 1ee4910364f9a0246b9538aab4de43eb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: PSX_Dandelion
+    100002: //RootNode
+    100004: PSX_Grass
+    100006: 'PSX_Lavender '
+    100008: PSX_PineConre
+    100010: PSX_Reed
+    100012: PSX_Rock
+    100014: PSX_Tree1
+    100016: PSX_Tree2
+    100018: PSX_Tree3
+    100020: PSX_Tree4
+    100022: PSX_Treetrunk
+    400000: PSX_Dandelion
+    400002: //RootNode
+    400004: PSX_Grass
+    400006: 'PSX_Lavender '
+    400008: PSX_PineConre
+    400010: PSX_Reed
+    400012: PSX_Rock
+    400014: PSX_Tree1
+    400016: PSX_Tree2
+    400018: PSX_Tree3
+    400020: PSX_Tree4
+    400022: PSX_Treetrunk
+    2100000: Dandelion
+    2100002: Grass
+    2100004: Grass2
+    2100006: Bolder
+    2100008: PIne
+    2100010: Tree2
+    2100012: TreeCrown2
+    2100014: TreeCrown1
+    2100016: Tree1
+    2100018: Tree3
+    2100020: TreeCorwn3
+    2100022: Tree4
+    2100024: TreeCorwn4
+    2100026: TreeEnd
+    2300000: PSX_Dandelion
+    2300002: PSX_Grass
+    2300004: 'PSX_Lavender '
+    2300006: PSX_PineConre
+    2300008: PSX_Reed
+    2300010: PSX_Rock
+    2300012: PSX_Tree1
+    2300014: PSX_Tree2
+    2300016: PSX_Tree3
+    2300018: PSX_Tree4
+    2300020: PSX_Treetrunk
+    3300000: PSX_Dandelion
+    3300002: PSX_Grass
+    3300004: 'PSX_Lavender '
+    3300006: PSX_PineConre
+    3300008: PSX_Reed
+    3300010: PSX_Rock
+    3300012: PSX_Tree1
+    3300014: PSX_Tree2
+    3300016: PSX_Tree3
+    3300018: PSX_Tree4
+    3300020: PSX_Treetrunk
+    4300000: PSX_Dandelion
+    4300002: PSX_Grass
+    4300004: 'PSX_Lavender '
+    4300006: PSX_Reed
+    4300008: PSX_Rock
+    4300010: PSX_PineConre
+    4300012: PSX_Tree2
+    4300014: PSX_Tree1
+    4300016: PSX_Tree3
+    4300018: PSX_Tree4
+    4300020: PSX_Treetrunk
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

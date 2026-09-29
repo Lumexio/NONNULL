@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: ac5ae80478ea93d4aab9aeb3371ab7e6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bullet shell world
+    100004: explosive world
+    100006: grenade launcher ammo world
+    100008: grenade world
+    100010: launcher shell world
+    100012: pistol mag world
+    100014: revolver ammo world
+    100016: rifle mag world
+    100018: rpg ammo world
+    100020: rpg shell world
+    100022: sci-fi ammo world
+    100024: shotgun ammo pile world
+    100026: shotgun cartrige shell world
+    100028: smg ammo world
+    100030: sniper ammo world
+    400000: //RootNode
+    400002: bullet shell world
+    400004: explosive world
+    400006: grenade launcher ammo world
+    400008: grenade world
+    400010: launcher shell world
+    400012: pistol mag world
+    400014: revolver ammo world
+    400016: rifle mag world
+    400018: rpg ammo world
+    400020: rpg shell world
+    400022: sci-fi ammo world
+    400024: shotgun ammo pile world
+    400026: shotgun cartrige shell world
+    400028: smg ammo world
+    400030: sniper ammo world
+    2100000: Material.001
+    2100002: Material.049
+    2100004: Material.008
+    2100006: Material.030
+    2100008: Material.014
+    2100010: Material.002
+    2100012: Material.057
+    2100014: Material.007
+    2100016: Material.025
+    2100018: Material.006
+    2100020: Material.035
+    2300000: bullet shell world
+    2300002: explosive world
+    2300004: grenade launcher ammo world
+    2300006: grenade world
+    2300008: launcher shell world
+    2300010: pistol mag world
+    2300012: revolver ammo world
+    2300014: rifle mag world
+    2300016: rpg ammo world
+    2300018: rpg shell world
+    2300020: sci-fi ammo world
+    2300022: shotgun ammo pile world
+    2300024: shotgun cartrige shell world
+    2300026: smg ammo world
+    2300028: sniper ammo world
+    3300000: bullet shell world
+    3300002: explosive world
+    3300004: grenade launcher ammo world
+    3300006: grenade world
+    3300008: launcher shell world
+    3300010: pistol mag world
+    3300012: revolver ammo world
+    3300014: rifle mag world
+    3300016: rpg ammo world
+    3300018: rpg shell world
+    3300020: sci-fi ammo world
+    3300022: shotgun ammo pile world
+    3300024: shotgun cartrige shell world
+    3300026: smg ammo world
+    3300028: sniper ammo world
+    4300000: bullet shell world
+    4300002: explosive world
+    4300004: grenade launcher ammo world
+    4300006: launcher shell world
+    4300008: pistol mag world
+    4300010: revolver ammo world
+    4300012: rifle mag world
+    4300014: rpg ammo world
+    4300016: rpg shell world
+    4300018: sci-fi ammo world
+    4300020: shotgun cartrige shell world
+    4300022: smg ammo world
+    4300024: sniper ammo world
+    4300026: shotgun ammo pile world
+    4300028: grenade world
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
