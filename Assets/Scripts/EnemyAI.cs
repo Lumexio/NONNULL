@@ -2,212 +2,213 @@ using UnityEngine;
 using System.Collections;
 
 [RequireComponent(typeof(CharacterController))]
-public class EnemyAI : MonoBehaviour {
+public class EnemyAI : MonoBehaviour
+{
     [HideInInspector] public string poolTag = "";
-    public float speed = 2.5f;
-    public float tackleWindupTime = 0.3f;
-    public float tackleDashSpeed = 7.5f;
-    public float tackleDuration = 0.2f;
-    public float tackleRetreatSpeed = 6.25f;
-    public float retreatDuration = 0.4f;
-    public float tackleCooldown = 1.5f;
-    public int tackleDamage = 10;
+
+    [SerializeField] private float walkSpeed = 2f;
+    [SerializeField] private float runSpeed = 4f;
+    [SerializeField] private float attackRange = 1.5f;
+    [SerializeField] private float attackDamage = 10f;
+    [SerializeField] private float attackCooldown = 1.5f;
+    [SerializeField] private float gravity = -20f;
     public bool isTough = false;
+
+    public Vector3 flockingSteer = Vector3.zero;
     public bool isAttacker = false;
 
     private CharacterController cc;
-    private Renderer rend;
+    private Animator anim;
     private Transform player;
 
-    public enum State { IDLE, WINDUP, TACKLE, RETREAT, COOLDOWN }
+    private float attackTimer;
+    private float verticalVelocity;
+    private bool isDead;
+
+    public enum State
+    {
+        IDLE,
+        WALK,
+        ATTACK,
+        HIT,
+        DEAD
+    }
+
     public State state = State.IDLE;
-    private float stateTimer = 0f;
-    private Vector3 tackleDir = Vector3.zero;
-    private Vector3 velocity = Vector3.zero;
-    private Vector3 flockingSteer = Vector3.zero;
-    private Vector3 knockbackVel = Vector3.zero;
-    private float knockbackTimer = 0f;
 
-    void Awake() {
+    private void Awake()
+    {
         cc = GetComponent<CharacterController>();
-        if (cc == null) cc = gameObject.AddComponent<CharacterController>();
-        rend = GetComponentInChildren<Renderer>();
+        if (cc == null)
+        {
+            cc = gameObject.AddComponent<CharacterController>();
+        }
+        anim = GetComponentInChildren<Animator>();
     }
 
-    void OnEnable() {
-        state = State.IDLE;
-        stateTimer = 0f;
-        velocity = Vector3.zero;
-        flockingSteer = Vector3.zero;
-        knockbackTimer = 0f;
-        knockbackVel = Vector3.zero;
-        isAttacker = false;
-
-        if (isTough) {
-            speed = 2.0f;
-            tackleDamage = 20;
-            if (rend != null) rend.material.color = Color.green;
-        } else {
-            speed = 2.5f;
-            tackleDamage = 10;
-            if (rend != null) rend.material.color = Color.white;
-        }
-
-        if (FlockingManager.Instance != null) {
-            FlockingManager.Instance.RegisterEnemy(this);
-        }
+    private void OnEnable()
+    {
+        isDead = false;
+        state = State.WALK;
+        attackTimer = 0f;
+        verticalVelocity = 0f;
     }
 
-    void OnDisable() {
-        if (FlockingManager.Instance != null) {
-            FlockingManager.Instance.UnregisterEnemy(this);
-        }
-    }
-
-    void Start() {
+    private void Start()
+    {
         GameObject p = GameObject.FindWithTag("Player");
-        if (p != null) player = p.transform;
-        if (PlayerController.Instance != null) player = PlayerController.Instance.transform;
+        if (p != null)
+        {
+            player = p.transform;
+        }
+        state = State.WALK;
     }
 
-    void Update() {
-        if (player == null) {
-            if (PlayerController.Instance != null) {
-                player = PlayerController.Instance.transform;
-            } else {
-                GameObject p = GameObject.FindWithTag("Player");
-                if (p != null) player = p.transform;
-            }
-            if (player == null) return;
-        }
-
-        // Knockback handling
-        if (knockbackTimer > 0f) {
-            knockbackTimer -= Time.deltaTime;
-            velocity = knockbackVel;
-            knockbackVel = Vector3.Lerp(knockbackVel, Vector3.zero, Time.deltaTime * 4f);
-            velocity.y = -0.1f;
-            cc.Move(velocity * Time.deltaTime);
+    private void Update()
+    {
+        if (isDead || player == null)
+        {
             return;
         }
 
-        stateTimer += Time.deltaTime;
+        verticalVelocity += gravity * Time.deltaTime;
+        float dist = Vector3.Distance(transform.position, player.position);
 
-        switch (state) {
+        switch (state)
+        {
+            case State.WALK:
+                MoveTowardPlayer(dist);
+                break;
+
+            case State.ATTACK:
+                HandleAttack(dist);
+                break;
+
+            case State.HIT:
+                HandleHitReaction(dist);
+                break;
+
+            case State.DEAD:
+                HandleDeath(dist);
+                break;
+
             case State.IDLE:
-                if (isAttacker) {
-                    float dist = Vector3.Distance(transform.position, player.position);
-                    if (dist <= 3.0f) {
-                        EnterState(State.WINDUP);
-                        break;
-                    }
-                }
-
-                // Move according to flocking steering
-                velocity = flockingSteer * speed;
-                if (flockingSteer.sqrMagnitude > 0.01f) {
-                    transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(flockingSteer), Time.deltaTime * 8f);
-                }
-                break;
-
-            case State.WINDUP:
-                velocity = Vector3.zero;
-                Vector3 lookDir = (player.position - transform.position);
-                lookDir.y = 0f;
-                if (lookDir.sqrMagnitude > 0.01f) {
-                    transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(lookDir.normalized), Time.deltaTime * 10f);
-                }
-                if (stateTimer >= tackleWindupTime) {
-                    tackleDir = lookDir.normalized;
-                    EnterState(State.TACKLE);
-                }
-                break;
-
-            case State.TACKLE:
-                velocity = tackleDir * tackleDashSpeed;
-                if (stateTimer >= tackleDuration) {
-                    EnterState(State.RETREAT);
-                }
-                break;
-
-            case State.RETREAT:
-                velocity = -tackleDir * tackleRetreatSpeed;
-                if (stateTimer >= retreatDuration) {
-                    EnterState(State.COOLDOWN);
-                }
-                break;
-
-            case State.COOLDOWN:
-                velocity = Vector3.zero;
-                if (stateTimer >= tackleCooldown) {
-                    if (isAttacker && FlockingManager.Instance != null) {
-                        FlockingManager.Instance.ReleaseAttacker(this);
-                    }
-                    EnterState(State.IDLE);
-                }
                 break;
         }
-
-        velocity.y = -0.1f;
-        cc.Move(velocity * Time.deltaTime);
     }
 
-    public void EnterState(State s) {
-        state = s;
-        stateTimer = 0f;
-    }
-
-    public void SetAttacker(bool attacker) {
-        isAttacker = attacker;
-        if (!isAttacker && (state == State.WINDUP || state == State.TACKLE)) {
-            EnterState(State.RETREAT);
-        }
-    }
-
-    public void SetFlockingSteer(Vector3 steerDir) {
-        flockingSteer = steerDir;
-    }
-
-    void OnControllerColliderHit(ControllerColliderHit hit) {
-        if (state == State.TACKLE && hit.gameObject.CompareTag("Player")) {
-            PlayerHealth ph = hit.gameObject.GetComponent<PlayerHealth>();
-            if (ph == null && PlayerHealth.Instance != null) ph = PlayerHealth.Instance;
-            if (ph != null) {
-                ph.TakeDamage(tackleDamage);
+    private void MoveTowardPlayer(float dist)
+    {
+        if (dist <= attackRange)
+        {
+            state = State.ATTACK;
+            if (anim != null)
+            {
+                anim.SetFloat("Speed", 0f);
             }
-
-            PlayerController pc = hit.gameObject.GetComponent<PlayerController>();
-            if (pc == null && PlayerController.Instance != null) pc = PlayerController.Instance;
-            if (pc != null) {
-                pc.ApplyKnockback(tackleDir);
-            }
-
-            EnterState(State.RETREAT);
+            return;
         }
-    }
 
-    public void ApplyKnockback(Vector3 dir) {
+        float speed = isTough ? runSpeed : walkSpeed;
+        Vector3 dir = (player.position - transform.position).normalized;
+
+        if (flockingSteer.sqrMagnitude > 0.01f)
+        {
+            dir = (dir + flockingSteer * 0.3f).normalized;
+        }
+
         dir.y = 0f;
-        knockbackVel = dir.normalized * (200f / 16f);
-        knockbackTimer = 0.25f;
+
+        if (dir != Vector3.zero)
+        {
+            transform.rotation = Quaternion.Slerp(
+                transform.rotation,
+                Quaternion.LookRotation(dir),
+                Time.deltaTime * 8f
+            );
+        }
+
+        Vector3 move = dir * speed;
+        move.y = verticalVelocity;
+        cc.Move(move * Time.deltaTime);
+
+        if (anim != null)
+        {
+            anim.SetFloat("Speed", speed);
+        }
     }
 
-    public void StartFlashAndSquash() {
-        StartCoroutine(FlashAndSquashRoutine());
+    private void HandleAttack(float dist)
+    {
+        if (dist > attackRange + 0.5f)
+        {
+            state = State.WALK;
+            return;
+        }
+
+        if (anim != null)
+        {
+            anim.SetFloat("Speed", 0f);
+        }
+
+        attackTimer -= Time.deltaTime;
+        if (attackTimer <= 0f)
+        {
+            attackTimer = attackCooldown;
+            if (anim != null)
+            {
+                anim.SetTrigger("Attack");
+            }
+            if (PlayerHealth.Instance != null)
+            {
+                PlayerHealth.Instance.TakeDamage(attackDamage);
+            }
+        }
     }
 
-    private IEnumerator FlashAndSquashRoutine() {
-        if (rend == null) yield break;
+    private void HandleHitReaction(float dist)
+    {
+        if (isDead)
+        {
+            return;
+        }
 
-        Vector3 origScale = transform.localScale;
-        Color origColor = isTough ? Color.green : Color.white;
+        state = State.HIT;
+        if (anim != null)
+        {
+            anim.SetTrigger("Hit");
+        }
+        StartCoroutine(HitReactionRoutine());
+    }
 
-        rend.material.color = Color.white;
-        transform.localScale = new Vector3(1.2f, 0.8f, 1.2f);
+    private IEnumerator HitReactionRoutine()
+    {
+        yield return new WaitForSeconds(0.4f);
+        if (!isDead)
+        {
+            state = State.WALK;
+        }
+    }
 
-        yield return new WaitForSeconds(0.15f);
+    private void HandleDeath(float dist)
+    {
+        if (isDead)
+        {
+            return;
+        }
 
-        if (rend != null) rend.material.color = origColor;
-        transform.localScale = origScale;
+        isDead = true;
+        state = State.DEAD;
+        if (anim != null)
+        {
+            anim.SetTrigger("Die");
+        }
+        StartCoroutine(DisableAfterSeconds(3f));
+    }
+
+    private IEnumerator DisableAfterSeconds(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        gameObject.SetActive(false);
     }
 }

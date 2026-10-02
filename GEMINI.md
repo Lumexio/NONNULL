@@ -21,5 +21,5 @@ When working in this Unity project, adhere STRICTLY to the following constraints
 - **Legacy Input**: Use `UnityEngine.Input`. Do NOT use the new Input System.
 
 ## Performance
-- **Target**: 30 FPS.
+- **Target**: 60 FPS.
 - **Memory Spikes**: Avoid `SceneManager.LoadScene()` to reset levels. Manually reset variables/GameObjects instead to avoid Vita RAM fragmentation.

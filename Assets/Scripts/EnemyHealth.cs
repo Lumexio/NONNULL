@@ -19,8 +19,7 @@ public class EnemyHealth : MonoBehaviour {
         hp -= amt;
 
         if (ai != null) {
-            ai.ApplyKnockback(dir);
-            ai.StartFlashAndSquash();
+            ai.TakeBulletHit();
         }
 
         if (hp <= 0) {
@@ -45,5 +44,9 @@ public class EnemyHealth : MonoBehaviour {
         } else {
             gameObject.SetActive(false);
         }
+    }
+
+    public void TakeDamage(float amount) {
+        TakeDamage((int)amount, Vector3.zero);
     }
 }

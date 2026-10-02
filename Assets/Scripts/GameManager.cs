@@ -89,7 +89,6 @@ public class GameManager : MonoBehaviour {
         if (PlayerController.Instance != null) {
             PlayerController.Instance.transform.position = new Vector3(0f, 1f, 0f);
             PlayerController.Instance.transform.rotation = Quaternion.identity;
-            PlayerController.Instance.ResetCombatState();
         }
 
         if (PlayerHealth.Instance != null) {

@@ -103,8 +103,6 @@ public class XPUI : MonoBehaviour {
         }
 
         if (PlayerController.Instance != null && damageMultiplierBar != null) {
-            float powerRatio = PlayerController.Instance.powerupTimer / PlayerController.POWERUP_DURATION;
-            damageMultiplierBar.fillAmount = Mathf.Clamp01(powerRatio);
         }
 
         // 2. Update Round, Points, Coins

@@ -85,7 +85,6 @@ public class Pickup : MonoBehaviour {
                 pc = PlayerController.Instance;
             }
             if (pc != null) {
-                pc.ActivatePowerMultiplier(15f, 2f);
             }
         }
     }

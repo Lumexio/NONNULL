@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 1d76578e09004364392996f27b32eb47
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: camera
+    100002: ctrl_HandIK_l
+    100004: ctrl_HandIK_r
+    100006: ctrl_pole_elbow_l
+    100008: ctrl_pole_elbow_r
+    100010: //RootNode
+    100012: hand_item_l
+    100014: hand_item_r
+    100016: hand_l
+    100018: hand_r
+    100020: index_01_l
+    100022: index_01_r
+    100024: index_02_l
+    100026: index_02_r
+    100028: index_03_l
+    100030: index_03_r
+    100032: indexKnuckle_l
+    100034: indexKnuckle_r
+    100036: lowerArm_l
+    100038: lowerArm_r
+    100040: middle_01_l
+    100042: middle_01_r
+    100044: middle_02_l
+    100046: middle_02_r
+    100048: middle_03_l
+    100050: middle_03_r
+    100052: middleKnuckle_l
+    100054: middleKnuckle_r
+    100056: pinky_01_l
+    100058: pinky_01_r
+    100060: pinky_02_l
+    100062: pinky_02_r
+    100064: pinky_03_l
+    100066: pinky_03_r
+    100068: pinkyKnuckle_l
+    100070: pinkyKnuckle_r
+    100072: ring_01_l
+    100074: ring_01_r
+    100076: ring_02_l
+    100078: ring_02_r
+    100080: ring_03_l
+    100082: ring_03_r
+    100084: ringKnuckle_l
+    100086: ringKnuckle_r
+    100088: root
+    100090: shoulder_l
+    100092: shoulder_r
+    100094: spine
+    100096: thumb_01_l
+    100098: thumb_01_r
+    100100: thumb_02_l
+    100102: thumb_02_r
+    100104: thumb_03_l
+    100106: thumb_03_r
+    100108: thumbKnuckle_l
+    100110: thumbKnuckle_r
+    100112: twist_1_arm_l
+    100114: twist_1_arm_r
+    100116: twist_2_arm_l
+    100118: twist_2_arm_r
+    100120: twist_3_arm_l
+    100122: twist_3_arm_r
+    100124: upperArm_l
+    100126: upperArm_r
+    400000: camera
+    400002: ctrl_HandIK_l
+    400004: ctrl_HandIK_r
+    400006: ctrl_pole_elbow_l
+    400008: ctrl_pole_elbow_r
+    400010: //RootNode
+    400012: hand_item_l
+    400014: hand_item_r
+    400016: hand_l
+    400018: hand_r
+    400020: index_01_l
+    400022: index_01_r
+    400024: index_02_l
+    400026: index_02_r
+    400028: index_03_l
+    400030: index_03_r
+    400032: indexKnuckle_l
+    400034: indexKnuckle_r
+    400036: lowerArm_l
+    400038: lowerArm_r
+    400040: middle_01_l
+    400042: middle_01_r
+    400044: middle_02_l
+    400046: middle_02_r
+    400048: middle_03_l
+    400050: middle_03_r
+    400052: middleKnuckle_l
+    400054: middleKnuckle_r
+    400056: pinky_01_l
+    400058: pinky_01_r
+    400060: pinky_02_l
+    400062: pinky_02_r
+    400064: pinky_03_l
+    400066: pinky_03_r
+    400068: pinkyKnuckle_l
+    400070: pinkyKnuckle_r
+    400072: ring_01_l
+    400074: ring_01_r
+    400076: ring_02_l
+    400078: ring_02_r
+    400080: ring_03_l
+    400082: ring_03_r
+    400084: ringKnuckle_l
+    400086: ringKnuckle_r
+    400088: root
+    400090: shoulder_l
+    400092: shoulder_r
+    400094: spine
+    400096: thumb_01_l
+    400098: thumb_01_r
+    400100: thumb_02_l
+    400102: thumb_02_r
+    400104: thumb_03_l
+    400106: thumb_03_r
+    400108: thumbKnuckle_l
+    400110: thumbKnuckle_r
+    400112: twist_1_arm_l
+    400114: twist_1_arm_r
+    400116: twist_2_arm_l
+    400118: twist_2_arm_r
+    400120: twist_3_arm_l
+    400122: twist_3_arm_r
+    400124: upperArm_l
+    400126: upperArm_r
+    7400000: Scene
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

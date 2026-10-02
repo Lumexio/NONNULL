@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: ae236e0b5eccd2845949b69ebb5bed8f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ChargeHandle
+    100002: ChargeHandle_Mesh
+    100004: DustCover
+    100006: DustCover_Mesh
+    100008: EjectionCover
+    100010: EjectionCover_Mesh
+    100012: FrontAssistAssembly
+    100014: FrontAssistAssembly_Mesh
+    100016: FrontSight
+    100018: FrontSight_Mesh
+    100020: Magazine
+    100022: Main
+    100024: Main_Mesh
+    100026: RearSight
+    100028: //RootNode
+    100030: Rifle_01_Armature
+    100032: Sights_Mesh
+    100034: Trigger
+    100036: Trigger_Mesh
+    400000: ChargeHandle
+    400002: ChargeHandle_Mesh
+    400004: DustCover
+    400006: DustCover_Mesh
+    400008: EjectionCover
+    400010: EjectionCover_Mesh
+    400012: FrontAssistAssembly
+    400014: FrontAssistAssembly_Mesh
+    400016: FrontSight
+    400018: FrontSight_Mesh
+    400020: Magazine
+    400022: Main
+    400024: Main_Mesh
+    400026: RearSight
+    400028: //RootNode
+    400030: Rifle_01_Armature
+    400032: Sights_Mesh
+    400034: Trigger
+    400036: Trigger_Mesh
+    2100000: Rifle_01_MI
+    2300000: FrontSight_Mesh
+    3300000: FrontSight_Mesh
+    4300000: ChargeHandle_Mesh
+    4300002: DustCover_Mesh
+    4300004: EjectionCover_Mesh
+    4300006: FrontAssistAssembly_Mesh
+    4300008: FrontSight_Mesh
+    4300010: Main_Mesh
+    4300012: Trigger_Mesh
+    4300014: Sights_Mesh
+    9500000: //RootNode
+    13700000: ChargeHandle_Mesh
+    13700002: DustCover_Mesh
+    13700004: EjectionCover_Mesh
+    13700006: FrontAssistAssembly_Mesh
+    13700008: Main_Mesh
+    13700010: Sights_Mesh
+    13700012: Trigger_Mesh
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
